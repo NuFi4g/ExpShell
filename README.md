@@ -1,8 +1,10 @@
 # ExpShell
 
-+ scan
++ bash
+	- clean.sh
 	- viewinfo.sh
 
-+ clean
-	- clean.sh
-
++ php
+	- POST
+	- .htaccess
+	- .user.ini

