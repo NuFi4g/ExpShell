@@ -1,10 +1,1 @@
-# ExpShell
-
-+ bash
-	- clean.sh
-	- viewinfo.sh
-
-+ php
-	- POST
-	- .htaccess
-	- .user.ini
+## 一些可能会被用到的脚本积累
